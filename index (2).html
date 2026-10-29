@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Stacy Taylor Adhiambo</title>
+<meta name="description" content="Stacy Taylor Adhiambo, founder of Strand, builds AI that works for people it wasn't designed for. Nairobi, Kenya.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#E7ECEA; --surface:#F3F6F4; --ink:#152238; --muted:#4B5B6E;
+  --rule:#C3CDCB; --ochre:#B4720E; --teal:#1F6F6A; color-scheme:light;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --paper:#111A24; --surface:#18232F; --ink:#E4EAE8; --muted:#A2B0BC;
+    --rule:#2E3B48; --ochre:#E2A13C; --teal:#5DBDB4; color-scheme:dark;
+  }
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:"Literata",Georgia,"Times New Roman",serif;font-size:1.125rem;line-height:1.7;padding-bottom:env(safe-area-inset-bottom,0px)}
+a{color:var(--teal);text-underline-offset:.18em;text-decoration-thickness:1px}
+a:hover{text-decoration-thickness:2px}
+a:focus-visible{outline:3px solid var(--ochre);outline-offset:3px;border-radius:2px}
+img{max-width:100%;height:auto;display:block}
+.wrap{max-width:68rem;margin:0 auto;padding:0 1.5rem}
+h1,h2,h3{font-family:"Bricolage Grotesque",system-ui,sans-serif;line-height:1.1;margin:0}
+
+nav{padding:calc(1.5rem + env(safe-area-inset-top,0px)) 0 1.5rem}
+nav .wrap{display:flex;justify-content:space-between;align-items:baseline;gap:1rem;flex-wrap:wrap}
+.mark{font-family:"Bricolage Grotesque",system-ui,sans-serif;font-weight:700;font-size:1.05rem;color:var(--ink);text-decoration:none}
+nav ul{list-style:none;margin:0;padding:0;display:flex;gap:1.5rem;font-size:1rem}
+nav ul a{color:var(--muted);text-decoration:none}
+nav ul a:hover{color:var(--ink)}
+
+.hero{padding:4rem 0 5rem}
+.hero h1{font-weight:800;font-size:clamp(2.6rem,7vw,5.6rem);letter-spacing:-.03em;max-width:14ch}
+.hero h1 .line{display:block}
+.hero h1 .turn{display:block;color:var(--ochre);padding-left:clamp(1rem,8vw,6rem);animation:shift 1.1s cubic-bezier(.2,.7,.2,1) .35s both}
+@keyframes shift{from{transform:translateX(-0.5em);opacity:0}to{transform:none;opacity:1}}
+.hero p{max-width:36rem;margin:2.5rem 0 0;font-size:1.25rem;color:var(--muted)}
+.hero p strong{color:var(--ink);font-weight:600}
+
+section{padding:4rem 0;border-top:1px solid var(--rule)}
+.grid{display:grid;grid-template-columns:14rem 1fr;gap:2.5rem}
+@media (max-width:760px){.grid{grid-template-columns:1fr;gap:1rem}}
+section h2{font-size:1.6rem;font-weight:700;letter-spacing:-.01em}
+.body{max-width:40rem}
+.body p{margin:0 0 1.2rem}
+
+.feature figure{margin:0 0 1.75rem;border:1px solid var(--rule);background:var(--surface)}
+.feature figcaption{padding:.7rem 1rem;font-size:.95rem;color:var(--muted);font-style:italic}
+
+.lessons{list-style:none;margin:0;padding:0}
+.lessons li{padding:1.4rem 0;border-bottom:1px solid var(--rule)}
+.lessons li:first-child{padding-top:0}
+.lessons li:last-child{border-bottom:0}
+.lessons h3{font-size:1.2rem;font-weight:700;margin-bottom:.4rem}
+.lessons p{margin:0;color:var(--muted)}
+
+.timeline{list-style:none;margin:0;padding:0}
+.timeline li{display:grid;grid-template-columns:9.5rem 1fr;gap:1rem;padding:.9rem 0;border-bottom:1px solid var(--rule)}
+.timeline li:last-child{border-bottom:0}
+@media (max-width:520px){.timeline li{grid-template-columns:1fr;gap:.1rem}}
+.when{color:var(--muted);font-size:.95rem;font-variant-numeric:tabular-nums}
+.role{font-weight:600}
+.org{color:var(--muted)}
+
+.contact a{font-family:"Bricolage Grotesque",system-ui,sans-serif;font-weight:500;font-size:1.3rem}
+.contact ul{list-style:none;margin:0;padding:0;display:grid;gap:.6rem}
+footer{padding:2.5rem 0 3rem;color:var(--muted);font-size:.9rem;border-top:1px solid var(--rule)}
+</style>
+</head>
+<body>
+
+<nav aria-label="Main">
+  <div class="wrap">
+    <a class="mark" href="#">Taylor Adhiambo</a>
+    <ul>
+      <li><a href="#strand">Strand</a></li>
+      <li><a href="#lessons">Lessons</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main>
+  <header class="hero">
+    <div class="wrap">
+      <h1><span class="line">Building AI that works for the people</span><span class="turn">it wasn’t built for.</span></h1>
+      <p>I’m <strong>Taylor Adhiambo</strong>, founder of Strand and an analyst in Nairobi. I build products for markets that technology tends to overlook, and I care about making sure the AI those markets adopt actually works for them.</p>
+    </div>
+  </header>
+
+  <section id="strand" class="feature">
+    <div class="wrap grid">
+      <h2>Strand</h2>
+      <div class="body">
+        <figure>
+          <img src="strand-homepage.png" alt="Strand homepage: a photo of braids on the left and Strand’s result on the right, naming the style with its type, size and length.">
+          <figcaption>Strand names a hairstyle from a photo, now in beta.</figcaption>
+        </figure>
+        <p>You see a hairstyle you love and can’t name it. At the salon you show a blurry screenshot and hope your stylist sees what you see. Strand fixes that: upload a photo and it tells you what the style is called, how it’s done and how to ask for it.</p>
+        <p>I started Strand in 2026 and built it end to end, from the style taxonomy and data collection plan to the web app and AI pipeline. The focus now is a proprietary dataset, built with hairstylists in Nairobi, ahead of a public launch in Kenya. <a href="https://github.com/Tayloradhiambo/strand-overview">Read the project overview</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="lessons">
+    <div class="wrap grid">
+      <h2>What Strand has taught me</h2>
+      <ul class="lessons body">
+        <li>
+          <h3>AI can fail quietly</h3>
+          <p>The leading vision model I started with couldn’t read most photos or results given were the same for different images Nothing flagged it. I only found out by testing it on the people Strand is for.</p>
+        </li>
+        <li>
+          <h3>The data is the product</h3>
+          <p>Swapping models wouldn’t fix a gap in the data, so Strand is building its own dataset with the stylists who do these styles every day. It’s the fix and the competitive advantage.</p>
+        </li>
+        <li>
+          <h3>Say what you don’t know</h3>
+          <p>Every Strand result is labelled as an AI estimate, with a prompt to confirm details with your stylist. An AI that sounds more certain than it is loses trust fast.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wrap grid">
+      <h2>About</h2>
+      <div class="body">
+        <p>By day I’m an analyst at Zamara, where I advise pension fund trustees on investment strategy. The work has taught me to make decisions with incomplete data and to explain them clearly to people who aren’t technical.</p>
+        <p>I’m most interested in where business, technology and Africa’s fast-growing markets meet, and in building things that are useful, trustworthy and commercially sound.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="wrap grid">
+      <h2>Experience</h2>
+      <ol class="timeline body" reversed>
+        <li><span class="when">2026 to now</span><span><span class="role">Founder</span>, <span class="org">Strand</span></span></li>
+        <li><span class="when">Oct 2024 to now</span><span><span class="role">Actuarial Analyst</span>, <span class="org">Zamara Actuaries, Administrators and Consultants</span></span></li>
+        <li><span class="when">Ongoing</span><span><span class="role">Junior Software Developer</span>, <span class="org">Power Learn Project</span></span></li>
+        <li><span class="when">Jan to Feb 2024</span><span><span class="role">Group Life Underwriting Intern</span>, <span class="org">Pioneer Assurance</span></span></li>
+        <li><span class="when">Jan to Mar 2022</span><span><span class="role">Field Data Collector</span>, <span class="org">Deloitte</span></span></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="education">
+    <div class="wrap grid">
+      <h2>Education</h2>
+      <ol class="timeline body" reversed>
+        <li><span class="when">2019 to 2024</span><span><span class="role">BSc Actuarial Science</span>, <span class="org">Jomo Kenyatta University of Agriculture and Technology, Second Class Honours (Upper Division)</span></span></li>
+        <li><span class="when">Feb 2026</span><span><span class="role">IFoA examinations CB1 to CB3</span>, <span class="org">Institute and Faculty of Actuaries</span></span></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="wrap grid">
+      <h2>Contact</h2>
+      <ul class="body">
+        <li><a href="mailto:adhiambostacytaylor876@gmail.com">adhiambostacytaylor876@gmail.com</a></li>
+        <li><a href="https://www.linkedin.com/in/stacy-taylor-adhiambo-13134125b?utm_source=share_via&utm_content=profile&utm_medium=member_android">LinkedIn</a></li>
+        <li><a href="https://github.com/Tayloradhiambo">GitHub</a></li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer><div class="wrap">Stacy Taylor Adhiambo, Nairobi, Kenya</div></footer>
+</body>
+</html>
